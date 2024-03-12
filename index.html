@@ -1,0 +1,51 @@
+<!-- Code by incredible_prog -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <!--Here your code goes! -->
+    
+    <div class="taskBox">
+        <span class="heading">Task Tracker</span>
+        <button id="addBtn">Add</button>
+
+        <div class="form" id="formDisplay">
+            <label class="label"  for="taskTitle">Task</label><br>
+            <input id="taskTitle" class="input" type="text" placeholder="Add Task"><br>
+
+
+            <label class="label" for="dayTime">Day & time</label><br>
+            <input id="dayTime" class="input" type="text" placeholder="Add Day & Time"><br>
+
+            <label class="label" for="reminder">Reminder</label>
+            <input type="checkbox" id="reminder"><br/>
+
+            <button id="saveBtn" onclick="saveTask()">Save Task</button>
+
+            
+
+            <div class="savedTasks">
+                    <!--Tasks list goes here!-->
+                
+            </div>
+
+        </div>
+
+        <!--No tasks indicator-->
+        <div id="noTask">
+            <h3>No tasks to show </h3>
+        </div>
+
+
+    </div>
+    <!-- CODE BY INCREDIBLE_PROG-->
+    <script src="index.js"></script>
+</body>
+</html>
